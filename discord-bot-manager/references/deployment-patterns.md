@@ -1,5 +1,23 @@
 # Discord Bot Deployment Patterns
 
+## Contents
+
+- [Deployment Options](#deployment-options)
+  - [1. Manual Script Management (Simple)](#1-manual-script-management-simple)
+  - [2. Systemd Service (Recommended)](#2-systemd-service-recommended)
+  - [3. PM2 Process Manager](#3-pm2-process-manager)
+  - [4. Docker Containers](#4-docker-containers)
+- [Production Considerations](#production-considerations)
+  - [Logging Strategy](#logging-strategy)
+  - [Error Handling](#error-handling)
+  - [Resource Monitoring](#resource-monitoring)
+- [High Availability Setup](#high-availability-setup)
+  - [Multi-Server Deployment](#multi-server-deployment)
+  - [Health Checks](#health-checks)
+- [Monitoring & Alerts](#monitoring-alerts)
+  - [Simple Monitoring Script](#simple-monitoring-script)
+  - [Cron Job Monitoring](#cron-job-monitoring)
+
 ## Deployment Options
 
 ### 1. Manual Script Management (Simple)
